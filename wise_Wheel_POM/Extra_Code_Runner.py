@@ -30,6 +30,7 @@ time.sleep(2)
 # Select Login Option from Drop_Down List
 driver.find_element(By.XPATH,"//nav[@role='navigation']//li[@class='nav-item dropdown no-arrow open-on-hover d-md-block d-sm-none d-none']//a[@class='nav-link'][normalize-space()='Log In']").click()
 print("Click on Login In")
+print("Login Successful")
 time.sleep(2)
 
 driver.find_element(By.NAME, "email").send_keys("Test123@yopmail.com")
